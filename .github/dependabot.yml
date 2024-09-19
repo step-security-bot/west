@@ -22,3 +22,8 @@ updates:
   directory: "/.github/actions/install-nix"
   schedule:
     interval: "daily"
+
+- package-ecosystem: gomod
+  directory: /
+  schedule:
+    interval: daily
